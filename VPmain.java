@@ -19,18 +19,19 @@ public class VPMain {
             vp.ecstatic();
             this.waitABeat(2000);
             vp.love(); 
-        } else
+        } else {
             vp.cry();
             this.waitABeat(2000);
             String ans2 = this.askForInput("Are you sure?");
             if(ans2.equals("yes")){
                 vp.enraged();
-            } else{
+            } else {
                 vp.ecstatic();
                 this.waitABeat(2000);
                 vp.love();
-            }
 
+            }
+        }
 
 
             
